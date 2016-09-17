@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-php-mysql1
+  memory: 256M
+  instances: 1
+  host: cf-php-mysql1-4545
+  domain: mybluemix.net
+  path: .
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
