@@ -34,10 +34,27 @@ $(function(){
 	        allowedPageSizes: [5, 10, 20],
 	        showInfo: true
 	    },
-	    columns: ["Symbol", "ISIN"]
+	    columns: ["Symbol", "ISIN",
+            {
+                dataField: "trade",
+                cellTemplate: function (container, options) {
+                    createLink(container, options.data.SEDOL, "/trade?SEDOL=" + options.data.SEDOL);
+                    container.append("-" + options.value);
+                },
+            }
+
+	    ]
 	});
 
 });
+
+    function createLink(container, text, hyperlink) {
+        return $("<a/>")
+            .addClass("dx-link")
+            .text(text)
+            .attr("href", hyperlink)
+            .appendTo(container);
+    }
 
 function callbackFn(data){
 	dataArray.length =0;
