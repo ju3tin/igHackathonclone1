@@ -97,9 +97,9 @@
             <h3>Free Bootstrap Themes &amp; Templates</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-            <div class="col-xs-6">
-             <div class="circle-avatar" style="background-image:url(http://placekitten.com/g/400/200)">
-        </div>
+           
+             <div class="circle-avatar" style="background-image:url(http://placekitten.com/g/40/20)">
+       
         </div>
         </div>
     </header>
