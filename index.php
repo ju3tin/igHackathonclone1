@@ -101,10 +101,11 @@
              <div class="circle-avatar" style="background-image:url(http://placekitten.com/g/400/200)">
        
         </div>
+       <br>
+         <img src="http://i.stack.imgur.com/SoLOz.png" alt="Smiley face">
+
         </div>
-        <br>
-         <img src="http://i.stack.imgur.com/SoLOz.png" alt="Smiley face" height="42" width="42">
-    </header>
+           </header>
 
     <!-- About -->
     <section id="about" class="about">
