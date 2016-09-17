@@ -102,6 +102,8 @@
        
         </div>
         </div>
+        <br>
+         <img src="http://i.stack.imgur.com/SoLOz.png" alt="Smiley face" height="42" width="42">
     </header>
 
     <!-- About -->
