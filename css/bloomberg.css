@@ -1,0 +1,53 @@
+﻿.childDiv {
+   display:inline-block;
+   width:50%;
+   padding: 20px;
+}
+
+.dx-row.dx-data-row .cell-red {
+    color: #DB3333;
+}
+
+.dx-row.dx-data-row .cell-green {
+    color: #01C605;
+}
+
+.row-white td {
+    color: #FFFFFF !important;
+}
+
+.dx-row.dx-data-row {
+    color: #F09000;
+}
+
+.dx-header-row {
+    background-color: #961023;
+}
+
+.body-content {
+    background-color: #000000;
+}
+
+body {
+    background-color: #000000;
+}
+
+html {
+    background-color: #000000;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+h4 {
+    color: #FFFFFF;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+.dx-datagrid-table-fixed .dx-row.dx-group-row td {
+    background-color: #961023;
+}
